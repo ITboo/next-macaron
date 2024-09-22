@@ -1,0 +1,9 @@
+.header {
+  padding: 15px;
+  background-color: var(--header-background);
+}
+.menu {
+  display: flex;
+  gap: 14px;
+  list-style: none;
+}
