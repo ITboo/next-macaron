@@ -3,27 +3,40 @@ import Link from 'next/link';
 import Container from '../Container';
 
 import styles from './header.module.css';
+import Logo from '@/app/shared/ui/Logo';
+import Subheader from '../Subheader';
 
 const Header = () => {
   return (
     <header className={styles.header}>
+
+        <Subheader />
       <Container>
-        <nav className={styles.nav}>
-          <ul className={styles.menu}>
+        <div className={styles.bg}>
+          <ul className={styles.main_menu}>
             <li className={styles.menu__item}>
-              <Link href='/pages/quality-assurance'>Гарантия свежести</Link>
+              <Link href='/'>СЛАДКИЕ ДНИ</Link>
             </li>
             <li className={styles.menu__item}>
-              <Link href='/pages/delivery'>Доставка и оплата</Link>
+              <Link href='/'>подарочные наборы</Link>
             </li>
             <li className={styles.menu__item}>
-              <Link href='/pages/wholesale'>Оптовые поставки</Link>
+              <Link href='/'>Собрать набор</Link>
             </li>
             <li className={styles.menu__item}>
-              <Link href='/pages/contacts'>Контакты</Link>
+              <Logo />
+            </li>
+            <li className={styles.menu__item}>
+              <Link href='/'>Создать дизайн</Link>
+            </li>
+            <li className={styles.menu__item}>
+              <Link href='/'>КОМПАНИЯМ</Link>
+            </li>
+            <li className={styles.menu__item}>
+              <Link href='/'>ВЕСЬ КАТАЛОГ</Link>
             </li>
           </ul>
-        </nav>
+        </div>
       </Container>
     </header>
   );

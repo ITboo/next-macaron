@@ -1,0 +1,10 @@
+.bg{
+    background-color: var(--header-background);
+    padding: 15px;
+}
+
+.menu {
+    display: flex;
+    gap: 14px;
+    list-style: none;
+  }

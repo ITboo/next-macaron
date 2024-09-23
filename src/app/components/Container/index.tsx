@@ -4,7 +4,7 @@ import styles from './container.module.css';
 const Container = ({
   children
 }: Readonly<{
-  children: React.ReactNode;
+  children?: React.ReactNode;
 }>) => {
   return <div className={styles.container}>{children}</div>;
 };

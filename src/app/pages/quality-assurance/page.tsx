@@ -1,7 +1,13 @@
 //import styles from './page.module.css';
 
+import Container from '@/app/components/Container';
+
 const Quality = () => {
-  return <div>Quality</div>;
+  return (
+    <section>
+      <Container></Container>
+    </section>
+  );
 };
 
 export default Quality;

@@ -1,9 +1,11 @@
-.header {
-  padding: 15px;
-  background-color: var(--header-background);
-}
-.menu {
+.main_menu{
   display: flex;
-  gap: 14px;
+  align-items: center;
+  gap: 30px;
   list-style: none;
+  text-transform: uppercase;
+}
+
+.bg{
+  padding: 18px 0;
 }

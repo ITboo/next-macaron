@@ -1,7 +1,13 @@
 //import styles from './page.module.css';
 
+import Container from '@/app/components/Container';
+
 const Wholesale = () => {
-  return <div>Wholesale</div>;
+  return (
+    <section>
+      <Container></Container>
+    </section>
+  );
 };
 
 export default Wholesale;
