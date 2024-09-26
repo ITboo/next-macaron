@@ -1,6 +1,7 @@
 // import SinceSection from './components/MainPage/SinceSection';
 // import Proposals from './components/MainPage/Proposals';
-import Shares from './components/MainPage/Shares';
+// import Shares from './components/MainPage/Shares';
+import Holidays from './components/MainPage/Holidays';
 import styles from './page.module.css';
 
 export default function Home() {
@@ -8,7 +9,8 @@ export default function Home() {
     <main className={styles.page}>
       {/* <SinceSection /> */}
       {/* <Proposals /> */}
-      <Shares />
+      {/* <Shares /> */}
+      <Holidays />
     </main>
   );
 }
