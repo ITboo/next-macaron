@@ -9,7 +9,7 @@ const Privacy = () => {
       <Container>
         <div className={styles.privacy_policy}>
           <nav className={styles.breadcrumbs}>
-            <a href='/'>Главная</a> &rdquo; <span className={styles.span_policy}>Политика конфиденциальности</span>
+            <a href='/'>Главная</a> &gt; <span className={styles.span_policy}>Политика конфиденциальности</span>
           </nav>
 
           <h1 className={styles.page_title}>Политика конфиденциальности</h1>
