@@ -1,0 +1,47 @@
+.since {
+  height: 475px;
+  display: flex;
+}
+.since_title {
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 51.2px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.macaron {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.line {
+  /* flex: 1; */
+  height: 1px;
+  width: 29px;
+  background-color: #000;
+  margin: 10px 0;
+}
+.macaron span:nth-child(1) {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26.8px;
+}
+.macaron span:nth-child(2) {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19.5px;
+}
+.since_text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.9px;
+  color: #292929;
+}
