@@ -1,11 +1,11 @@
 import styles from './proposals.module.css';
-import Image from 'next/image';
+import Image, { StaticImageData } from 'next/image';
 import arrow from '../../../../public/svg/arrowBlackRight.svg';
 type ProposalsItemProps = {
   id: number;
   title: string;
   text: string;
-  image: string;
+  image: StaticImageData;
   color: string;
 };
 

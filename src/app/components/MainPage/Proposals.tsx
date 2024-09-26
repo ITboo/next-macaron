@@ -6,12 +6,13 @@ import corparative from '../../../../public/svg/mainProposalsCorparativeSet.svg'
 import individual from '../../../../public/svg/mainProposalsIndividualSet.svg';
 import optom from '../../../../public/svg/mainProposalsOptomSet.svg';
 import weddings from '../../../../public/svg/mainProposalsWeddingSet.svg';
+import { StaticImageData } from "next/image";
 
 interface CardsProposales {
   id: number;
   title: string;
   text: string;
-  image: string;
+  image: StaticImageData;
   color: string;
 }
 

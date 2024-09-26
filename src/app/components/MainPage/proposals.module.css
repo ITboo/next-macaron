@@ -20,6 +20,7 @@
   /* gap: 10px; */
   position: relative;
   overflow: hidden;
+  cursor: pointer;
 }
 .image {
   z-index: 1;
