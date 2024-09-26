@@ -1,16 +1,5 @@
 import styles from './page.module.css';
 import Image from 'next/image';
-// const CookieImg = () => {
-//   return (
-//       <Image
-//           src="/cookie.png" 
-//           alt="Sad cookie"
-//           width={321} 
-//           height={321} 
-//       />
-//   );
-// };
-
 
 import Container from '@/app/components/Container';
 
@@ -18,30 +7,20 @@ const NotFound = () => {
   return (
     <section>
       <div className={styles.wrapper_not_found}>
-      <Container>
+        <Container>
           <p className={styles.text_not_found}>Извините, страница не найдена</p>
           <div className={styles.wrapper_error}>
-          <div className={styles.error}>
-          
-
-          <div className={styles.images_cookies}>
-            {/* <CookieImg /> */}
-            <Image src='/cookie.png' alt='sad cookie' width={321} height={321}/>
-          {/* <Image 
-          src="/cookie.png" 
-          alt={'Sad cookie'} 
-          width={321} 
-          height={321}/> */}
+            <div className={styles.error}>
+              <div className={styles.images_cookies}>
+                <Image src='/cookie.png' alt='sad cookie' width={321} height={321} />
+              </div>
+            </div>
+            <button className={styles.back_button}>Назад</button>
           </div>
-          </div>
-          <button className={styles.back_button}>Назад</button>
-        </div>
-      </Container>
+        </Container>
       </div>
     </section>
   );
 };
 
 export default NotFound;
-
-
