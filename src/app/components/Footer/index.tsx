@@ -117,7 +117,8 @@ const Footer = () => {
               ))}
             </div>
             <p className={styles.info_text}>
-              © 2021 Макароншоп ООО &ldquo;Квантум&rdquo;, Санкт-Петербург, улица Маршала Тухачевского, дом 22
+              © 2021 Макароншоп<br/> 
+              ООО &ldquo;Квантум&rdquo;, Санкт-Петербург, улица Маршала Тухачевского, дом 22
             </p>
           </div>
           <div className={styles.nav_wrapper}>
