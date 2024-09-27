@@ -2,6 +2,18 @@ import styles from './page.module.css';
 
 import Container from '@/app/components/Container';
 
+function generateUser() {
+  return (
+    <>
+    <div className={styles.divider}></div>
+    <div className={styles['review__user']}>
+        <span>Иванов Иван<br></br>Генеральный директор ООО “ААА”</span>
+      <div className={styles['review__logo']}></div>
+    </div>
+    </>
+  )
+}
+
 const Wholesale = () => {
   return (
     <section className={styles.wholesale}>
@@ -127,12 +139,57 @@ const Wholesale = () => {
           </div>
           <button className={styles['wholesale-order__btn']}>Заказать расчёт</button>
           <div className={styles['wholesale-order__agreement']}>
-          <span>{'Нажимая на кнопку "Оформить заказ" Я принимаю и соглашаюсь с '}</span>
-          <span className={styles['agreement-link']}>{'Договором оферты '}</span>
-          <span>{'и разрешаю обработку моих персональных данных в соответствии с '}</span>
-          <span className={styles['agreement-link']}>Политикой конфиденциальности</span>
+            <span>{'Нажимая на кнопку "Оформить заказ" Я принимаю и соглашаюсь с '}</span>
+            <span className={styles['agreement-link']}>{'Договором оферты '}</span>
+            <span>{'и разрешаю обработку моих персональных данных в соответствии с '}</span>
+            <span className={styles['agreement-link']}>Политикой конфиденциальности</span>
           </div>
-          
+        </div>
+        <div className={styles['wholesale-reviews']}>
+          <h3 className={styles['minor-heading']}>Нас рекомендуют</h3>
+          <div className={styles.reviews}>
+            <div className={styles['reviews__column-container']}>
+              <div className={styles.review}>
+                <span className={styles['review__heading']}>Очень хорошие пироженки и трубочки, рекомендую</span>
+                <p className={styles['review__text']}>Отзыв блаблабла</p>
+                {generateUser()}
+              </div>
+              <div className={styles.review}>
+                <span className={styles['review__heading']}>Очень хорошие пироженки и трубочки, рекомендую</span>
+                <p className={styles['review__text']}>Являясь всего лишь частью общей картины, 
+                  активно развивающиеся страны третьего мира, вне зависимости от их уровня, 
+                  должны быть указаны как претенденты на роль ключевых факторов. </p>
+                {generateUser()}
+              </div>
+            </div>
+            <div className={styles['reviews__column-container']}>
+              <div className={styles.review}>
+              <span className={styles['review__heading']}>Очень хорошие пироженки и трубочки, рекомендую</span>
+              <p className={styles['review__text']}>Банальные, но неопровержимые выводы, а также представители современных социальных резервов ассоциативно распределены по отраслям. Противоположная точка зрения подразумевает, что многие известные личности могут быть обнародованы.</p>
+              {generateUser()}
+              </div>
+            </div>
+            <div className={styles['reviews__column-container']}>
+              <div className={styles.review}>
+              <span className={styles['review__heading']}>Заголовок отзыва</span>
+              <p className={styles['review__text']}>Ключевые особенности структуры проекта неоднозначны и будут указаны как претенденты на роль ключевых факторов. А также явные признаки победы институционализации будут заблокированы в рамках своих собственных рациональных ограничений. Элементы политического процесса функционально разнесены на независимые элементы. В своём стремлении улучшить пользовательский опыт мы упускаем, что представители современных социальных резервов обнародованы.</p>
+              {generateUser()}
+              </div>
+            </div>
+          </div>
+          <div className={styles['wholesale-review__brands']}>
+            <div className={[styles.brand, styles.sber].join(' ')}></div>
+            <div className={[styles.brand, styles.metro].join(' ')}></div>
+            <div className={[styles.brand, styles.zenit].join(' ')}></div>
+            <div className={[styles.brand, styles.mvideo].join(' ')}></div>
+            <div className={[styles.brand, styles.gazprom].join(' ')}></div>
+            <div className={[styles.brand, styles.zarina].join(' ')}></div>
+          </div>
+          <div className={styles['pagination']}>
+            <div className={[styles['pagination__element'], styles['_current']].join(' ')}></div>
+            <div className={styles['pagination__element']}></div>
+            <div className={styles['pagination__element']}></div>
+          </div>
         </div>
       </Container>
     </section>

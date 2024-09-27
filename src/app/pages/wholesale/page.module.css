@@ -237,3 +237,128 @@
   color: #4E9DD3;
   text-decoration: underline;
 }
+
+.wholesale-reviews {
+  padding-top: 67px;
+  padding-bottom: 59px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.reviews {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.reviews__column-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.review {
+  width: 332px;
+  border: 1px #EDEDF0 solid;
+  border-radius: 5px;
+  padding: 30px 20px 30px 20px;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.review__heading {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.review__text {
+  font-size: 16px;
+}
+
+.review__user {
+  display: flex;
+  justify-content: flex-end;
+  gap: 13px;
+  padding-top: 15px;
+}
+
+.review__user span {
+  text-align: right;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.review__logo {
+  background-image: url(/edge.png);
+  width: 36px;
+  height: 36px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.divider {
+  width: 100%;
+  background-color: #EDEDF0;
+  height: 1px;
+  margin-top: 10px;
+}
+
+.wholesale-review__brands {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.sber {
+  background-image: url(/Sberbank.png);
+}
+
+.metro {
+  background-image: url(/SPb-metro.png)
+}
+
+.zenit {
+  background-image: url(/Zenit.png)
+}
+
+.mvideo {
+  background-image: url(/MVideo.png)
+}
+
+.gazprom {
+  background-image: url(/gazprom.png)
+}
+
+.zarina {
+  background-image: url(/zarina.png)
+}
+
+.brand {
+  width: 133px;
+  height: 93px;
+  background-size: 100%;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  padding-top: 23px;
+}
+
+.pagination {
+  display: flex;
+  gap: 10px;
+}
+
+.pagination__element {
+  width: 12px;
+  height: 12px;
+  outline: 1px #E5E5E5 solid;
+  background-color: #FFFFFF;
+}
+
+._current {
+  background-color: #E7426A;
+  
+}
