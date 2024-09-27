@@ -1,0 +1,85 @@
+.breadcrumbs {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  font-size: 14px;
+  /* letter-spacing: 0.5px; */
+}
+
+.breadcrumbs span:not(._active) {
+  opacity: 46%;
+}
+
+.breadcrumbs span:not(:last-child)::after {
+  content: ">";
+  padding-left: 5px;
+}
+
+._active {
+  color: #4E9DD3;
+}
+
+.wholesale-supply {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding-top: 87px;
+  /* gap: 38px; */
+}
+
+.wholesale-supply__pic {
+  background-image: url('/pastry.png');
+  background-size: 100% 100%;
+  width: 469px;
+  height: 369px;
+}
+
+.wholesale-supply__info {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  align-items: center;
+  width: 670px;
+}
+/* я так понимаю это отдельный компонент, так как он повторяется на всех страницах??? ну я всякий случай сделала классом */
+.heading {
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.wholesale-supply__buyInfo {
+  font-size: 18px;
+  width: 500px;
+  text-align: center;
+}
+
+.wholesale-supply__btns-container {
+  display: flex;
+  gap: 10px;
+}
+
+.wholesale-supply__btn {
+  border: #4E9DD3 solid 1px;
+  width: 230px;
+  height: 50px;
+  background-color: transparent;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.wholesale-supply__description {
+  padding-top: 25px;
+  font-size: 16px;
+}
+
+.wholesale-supply__description span ul > li {
+  text-align: left;
+}
+
+.wholesale-supply__description ul {
+  padding-left: 30px;
+}
+
+.wholesale-supply__description ul > li::marker {
+  font-size: 0.5px;
+}
