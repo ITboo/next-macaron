@@ -23,6 +23,10 @@
     gap: 134px;
 }
 
+.contacts_content {
+    max-width: 470px;
+}
+
 .contacts_title {
 font-weight: 600;
 font-size: 42px;
@@ -37,4 +41,24 @@ font-size: 18px;
 line-height: 130%;
 color: #292929;
 margin-bottom: 82px;
+}
+
+.subtitle {
+    font-weight: 600;
+font-size: 18px;
+color: #292929;
+margin-bottom: 10px;
+}
+
+.info_text {
+    margin-bottom: 28px;
+}
+
+.marginContainer {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.timeText {
+    display: block; 
 }
