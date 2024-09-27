@@ -1,7 +1,8 @@
 // import SinceSection from './components/MainPage/SinceSection';
 // import Proposals from './components/MainPage/Proposals';
 // import Shares from './components/MainPage/Shares';
-import Holidays from './components/MainPage/Holidays';
+// import Holidays from './components/MainPage/Holidays';
+import PopularSet from './components/MainPage/PopularSet';
 import styles from './page.module.css';
 
 export default function Home() {
@@ -10,7 +11,8 @@ export default function Home() {
       {/* <SinceSection /> */}
       {/* <Proposals /> */}
       {/* <Shares /> */}
-      <Holidays />
+      {/* <Holidays /> */}
+      <PopularSet />
     </main>
   );
 }
