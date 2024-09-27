@@ -70,6 +70,7 @@
   background-color: transparent;
   font-size: 14px;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .wholesale-supply__description {
@@ -164,4 +165,75 @@
 
 .otherspheres {
   background-image: url('/svg/otherspheres.svg');
+}
+
+.wholesale-order {
+  padding-top: 76px;
+  padding-bottom: 76px;
+  background-color: #F7EBE5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 23px;
+}
+
+.wholesale-order__contact-form {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.contact-form__column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.column__container {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.column__container label {
+  font-size: 13px;
+}
+
+.wholesale-order h3 {
+  width: 650px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.wholesale-order__form {
+  width: 370px;
+  height: 50px;
+  border: 1px solid #EDEDF0;
+  font-size: 16px;
+}
+
+.commentary {
+  height: 139px;
+}
+
+.wholesale-order__btn {
+  background-color: #E7426A;
+  color: #FFFFFF;
+  width: 254px;
+  height: 50px;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 3px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.wholesale-order span {
+  font-size: 11px;
+}
+
+.agreement-link {
+  color: #4E9DD3;
+  text-decoration: underline;
 }
