@@ -1,3 +1,8 @@
+.wholesale {
+  background-color: #f7f7f7;
+  padding-top: 34px;
+}
+
 .breadcrumbs {
   display: flex;
   justify-content: center;
@@ -37,7 +42,7 @@
 .wholesale-supply__info {
   display: flex;
   flex-direction: column;
-  gap: 13px;
+  gap: 15px;
   align-items: center;
   width: 670px;
 }
@@ -48,7 +53,7 @@
 }
 
 .wholesale-supply__buyInfo {
-  font-size: 18px;
+  font-size: 16px;
   width: 500px;
   text-align: center;
 }
@@ -69,7 +74,7 @@
 
 .wholesale-supply__description {
   padding-top: 25px;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .wholesale-supply__description span ul > li {
@@ -82,4 +87,81 @@
 
 .wholesale-supply__description ul > li::marker {
   font-size: 0.5px;
+}
+
+.wholesale-offer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 83px;
+  gap: 51px;
+  padding-bottom: 113px;
+}
+
+.minor-heading {
+  font-size: 30px;
+}
+
+.wholesale-offer__options {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 54px;
+  justify-content: space-around;
+  /* column-gap: 60px; */
+}
+
+.wholesale-offer__options span {
+  font-size: 14px;
+  font-weight: 700;
+  width: 268px;
+  text-align: center;
+}
+
+.wholesale-offer__option-background {
+  background-color: #FFFFFF;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+.wholesale-offer__option {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+}
+
+.gifts {
+  background-image: url('/svg/gifts.svg');
+}
+
+.eshops {
+  background-image: url('/svg/eshops.svg');
+}
+
+.cafes {
+  background-image: url('/svg/cafeRestaraunts.svg');
+}
+
+.coffeeshops {
+  background-image: url('/svg/coffeshops.svg');
+}
+
+.hotels {
+  background-image: url('/svg/hotels.svg');
+}
+
+.retail {
+  background-image: url('/svg/retail.svg');
+}
+
+.candybars {
+  background-image: url('/svg/candybars.svg');
+}
+
+.otherspheres {
+  background-image: url('/svg/otherspheres.svg');
 }
