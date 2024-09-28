@@ -1,12 +1,21 @@
 :root {
   --background: #ffffff;
   --header-background: #f7ebe5;
+  --darker-background: #F7F7F7;
+  --dark-text:#292929;
+  --black:#000;
+  --accent: #e7426a;
+  --blue:#4E9DD3;
 }
 
 *,
 *::after,
 *::before {
   margin: 0;
+}
+
+html{
+  color: var(--dark-text);
 }
 
 a {

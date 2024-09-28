@@ -5,7 +5,7 @@
 .main_menu{
   display: flex;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
   gap: 30px;
   list-style: none;
   text-transform: uppercase;

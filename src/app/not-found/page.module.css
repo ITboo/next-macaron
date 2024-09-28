@@ -1,5 +1,5 @@
 .wrapper_not_found {
-    background-color: #f7f7f7;
+    background-color: var(--darker-background);
     position: relative;
     text-align: center;
 }
@@ -11,7 +11,7 @@
     font-size: 20px;
     line-height: 110%;
     text-align: center;
-    color: #000;
+    color: var(--black);
 }
 
 .error {
@@ -44,12 +44,12 @@
 }
 
 .back_button {
-    border: 1px solid #e7426a;
-    color: #e7426a;
+    border: 1px solid var(--accent);
+    color: var(--accent);
     border-radius: 3px;
     width: 234px;
     height: 50px;
-    background-color: #f7f7f7;
+    background-color: transparent;
     font-size: 14px;
     font-weight: 600;
     line-height: 17.07px;
