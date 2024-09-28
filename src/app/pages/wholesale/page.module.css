@@ -8,7 +8,6 @@
   justify-content: center;
   gap: 5px;
   font-size: 14px;
-  /* letter-spacing: 0.5px; */
 }
 
 .breadcrumbs span:not(._active) {
@@ -29,7 +28,6 @@
   width: 100%;
   justify-content: space-evenly;
   padding-top: 87px;
-  /* gap: 38px; */
 }
 
 .wholesale-supply__pic {
@@ -46,7 +44,7 @@
   align-items: center;
   width: 670px;
 }
-/* я так понимаю это отдельный компонент, так как он повторяется на всех страницах??? ну я всякий случай сделала классом */
+
 .heading {
   font-size: 42px;
   font-weight: 600;
@@ -108,7 +106,6 @@
   flex-wrap: wrap;
   row-gap: 54px;
   justify-content: space-around;
-  /* column-gap: 60px; */
 }
 
 .wholesale-offer__options span {
