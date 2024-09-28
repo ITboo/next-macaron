@@ -1,9 +1,26 @@
+import SinceSection from './components/MainPage/SinceSection';
+import Proposals from './components/MainPage/Proposals';
+import Shares from './components/MainPage/Shares';
+import Holidays from './components/MainPage/Holidays';
+import PopularSet from './components/MainPage/PopularSet';
+import MainNews from './components/MainPage/MainNews';
+import MainCare from './components/MainPage/MainCare';
 import styles from './page.module.css';
+import Container from './components/Container';
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}></main>
-    </div>
+    <main className={styles.page}>
+      <Container>
+   
+      <SinceSection />
+      <Proposals />
+      <Shares />
+      <Holidays />
+      <PopularSet />
+      <MainNews />
+      <MainCare />
+      </Container>
+    </main>
   );
 }

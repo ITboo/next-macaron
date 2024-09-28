@@ -1,0 +1,76 @@
+.proposals {
+  width: 100%;
+  height: 880px;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  /* justify-content: space-between; */
+}
+
+.proposals_item {
+  height: 260px;
+  max-width: 570px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* gap: 10px; */
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.image {
+  z-index: 1;
+}
+.proposals_item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: linear-gradient(to bottom right, transparent 50%, rgba(255, 255, 255, 0.3) 30%); */
+  /* filter: brightness(0.8); */
+  z-index: 0;
+}
+.diagonal::before {
+  background: linear-gradient(to left top, transparent 50%, rgba(255, 255, 255, 0.3) 30%);
+}
+
+.horizontal::before {
+  background: linear-gradient(to top right, transparent 50%, rgba(255, 255, 255, 0.3) 30%);
+}
+
+.vertical::before {
+  background: linear-gradient(to left bottom, transparent 50%, rgba(255, 255, 255, 0.3) 30%);
+}
+
+.both::before {
+  background: linear-gradient(to right bottom, transparent 50%, rgba(255, 255, 255, 0.3) 30%);
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0 10px 0;
+}
+.proposals_item h4 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24.3px;
+}
+.text {
+  max-width: 463px;
+  width: 100%;
+  text-align: center;
+}
+.proposals_item p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.5px;
+}
