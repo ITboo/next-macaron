@@ -28,7 +28,7 @@
     text-align: center;
     font-weight: bold;
     font-size: 14px;
-    margin-top: 40px;
+    margin: 40px 0 80px;
 }
 
 .qa_title{
@@ -38,9 +38,12 @@
 }
 
 .qa_text{
+  margin: 0 auto;
     text-align: center;
+    width: 670px;
 }
 
 .qa_description{
     margin-top: 22px;
+    width: 270px;
 }
