@@ -1,6 +1,19 @@
 .since {
+  width: 100%;
   height: 475px;
   display: flex;
+  justify-content: end;
+  position: relative;
+}
+.heart {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+.ellipse {
+  position: absolute;
+  right: 0;
 }
 .since_title {
   font-weight: 600;
@@ -8,12 +21,15 @@
   line-height: 51.2px;
 }
 .content {
+  width: 570px;
   display: flex;
   flex-direction: column;
   gap: 30px;
   align-items: center;
   justify-content: center;
   text-align: center;
+  z-index: 1;
+  margin-right: 200px;
 }
 .macaron {
   display: flex;
@@ -22,9 +38,16 @@
   justify-content: center;
   text-align: center;
 }
+.macaron_text {
+  text-transform: uppercase;
+}
+.since_date {
+  display: flex;
+  gap: 10px;
+}
 .line {
   /* flex: 1; */
-  height: 1px;
+  height: 2px;
   width: 29px;
   background-color: #000;
   margin: 10px 0;
