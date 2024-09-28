@@ -6,10 +6,13 @@ import PopularSet from './components/MainPage/PopularSet';
 import MainNews from './components/MainPage/MainNews';
 import MainCare from './components/MainPage/MainCare';
 import styles from './page.module.css';
+import Container from './components/Container';
 
 export default function Home() {
   return (
     <main className={styles.page}>
+      <Container>
+   
       <SinceSection />
       <Proposals />
       <Shares />
@@ -17,6 +20,7 @@ export default function Home() {
       <PopularSet />
       <MainNews />
       <MainCare />
+      </Container>
     </main>
   );
 }
