@@ -2,6 +2,54 @@ import styles from './page.module.css';
 
 import Container from '@/app/components/Container';
 
+const offers = [{
+    className: 'gifts',
+    text: 'Корпоративные подарки',
+    id: 0,
+  }, {
+    className:'eshops',
+    text: 'Сотрудничество с интернет магазинами',
+    id: 1,
+  }, {
+    className: 'cafes',
+    text: 'Сотрудничество с кафе и ресторанами',
+    id: 2,
+  }, {
+    className: 'coffeeshops',
+    text: 'Сотрудничество с кофейнями',
+    id: 3,
+  }, {
+    className: 'hotels',
+    text: 'Сотрудничество с отелями',
+    id: 4,
+  }, {
+    className: 'retail',
+    text: 'Для Retail',
+    id: 5,
+  }, {
+    className: 'candybars',
+    text: 'Кенди бары для мероприятий',
+    id: 6,
+  }, {
+    className: 'otherspheres',
+    text: 'И для других сфер бизнеса',
+    id: 7,
+  },
+];
+
+function GenerateOffers() {
+  return (
+    <>
+    {offers.map(offer =>
+      <div className={styles['wholesale-offer__option']} key={offer.id}>
+        <div className={[styles['wholesale-offer__option-background'], styles[offer.className]].join(' ')}></div>
+        <span>{offer.text}</span>
+      </div>
+    )}
+    </>
+  )
+}
+
 function generateUser() {
   return (
     <>
@@ -48,38 +96,7 @@ const Wholesale = () => {
         <div className={styles['wholesale-offer']}>
           <h3 className={styles['minor-heading']}>Что мы можем вам предложить:</h3>
           <div className={styles['wholesale-offer__options']}>
-            <div className={styles['wholesale-offer__option']}>
-              <div className={[styles['wholesale-offer__option-background'], styles.gifts].join(' ')}></div>
-              <span>Корпоративные<br></br>подарки</span>
-            </div>
-            <div className={styles['wholesale-offer__option']}>
-              <div className={[styles['wholesale-offer__option-background'], styles.eshops].join(' ')}></div>
-              <span>Сотрудничество<br></br>с интернет магазинами</span>
-            </div>
-            <div className={styles['wholesale-offer__option']}>
-              <div className={[styles['wholesale-offer__option-background'], styles.cafes].join(' ')}></div>
-              <span>Сотрудничество<br></br>с кафе и ресторанами</span>
-            </div>
-            <div className={styles['wholesale-offer__option']}>
-              <div className={[styles['wholesale-offer__option-background'], styles.coffeeshops].join(' ')}></div>
-              <span>Сотрудничество<br></br>с кофейнями</span>
-            </div>
-            <div className={styles['wholesale-offer__option']}>
-              <div className={[styles['wholesale-offer__option-background'], styles.hotels].join(' ')}></div>
-              <span>Сотрудничество с отелями</span>
-            </div>
-            <div className={styles['wholesale-offer__option']}>
-              <div className={[styles['wholesale-offer__option-background'], styles.retail].join(' ')}></div>
-              <span>Для Retail</span>
-            </div>
-            <div className={styles['wholesale-offer__option']}>
-              <div className={[styles['wholesale-offer__option-background'], styles.candybars].join(' ')}></div>
-              <span>Кенди бары для мероприятий</span>
-            </div>
-            <div className={styles['wholesale-offer__option']}>
-              <div className={[styles['wholesale-offer__option-background'], styles.otherspheres].join(' ')}></div>
-              <span>И для других сфер бизнеса</span>
-            </div>
+            {GenerateOffers()}
           </div>
         </div>
         <div className={styles['wholesale-order']}>
