@@ -1,7 +1,11 @@
+.header{
+  font-weight: 500;
+}
+
 .main_menu{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   gap: 30px;
   list-style: none;
   text-transform: uppercase;

@@ -2,15 +2,14 @@ import styles from './page.module.css';
 import Image from 'next/image';
 
 import Container from '@/app/components/Container';
+import Breadcrumb from '../shared/ui/Breadcrumb';
 
 const Contacts = () => {
   return (
     <section>
       <div className={styles.contacts_wrapper}>
         <Container>
-          <nav className={styles.breadcrumbs}>
-            <a href='/'>Главная</a> &gt; <span className={styles.span_contacts}>Контакты</span>
-          </nav>
+          <Breadcrumb homeElement={'Главная'} separator={">"} translatedLink={'Контакты'}/>
           <div className={styles.contacts_container}>
             <div className={styles.image_contacts}>
               <Image src='/contacts_img.png' alt='Contacts' width={379} height={434} />
