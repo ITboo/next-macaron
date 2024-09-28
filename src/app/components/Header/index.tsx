@@ -25,7 +25,7 @@ const Header = () => {
               <Link href='/'>Собрать набор</Link>
             </li>
             <li className={styles.menu__item}>
-              <Logo />
+              <Link href='/'><Logo /></Link>
             </li>
             <li className={styles.menu__item}>
               <Link href='/'>Создать дизайн</Link>
