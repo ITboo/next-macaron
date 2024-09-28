@@ -351,3 +351,9 @@
   background-color: #E7426A;
   
 }
+
+.wholesale-order__form::placeholder {
+  padding-left: 15px;
+  font-size: 16px;
+  color: rgba(41, 41, 41, 40%);
+}
