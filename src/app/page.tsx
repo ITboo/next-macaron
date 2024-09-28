@@ -3,7 +3,8 @@
 // import Shares from './components/MainPage/Shares';
 // import Holidays from './components/MainPage/Holidays';
 // import PopularSet from './components/MainPage/PopularSet';
-import MainNews from './components/MainPage/MainNews';
+// import MainNews from './components/MainPage/MainNews';
+import MainCare from './components/MainPage/MainCare';
 import styles from './page.module.css';
 
 export default function Home() {
@@ -14,7 +15,8 @@ export default function Home() {
       {/* <Shares /> */}
       {/* <Holidays /> */}
       {/* <PopularSet /> */}
-      <MainNews />
+      {/* <MainNews /> */}
+      <MainCare />
     </main>
   );
 }
