@@ -31,8 +31,7 @@
 }
 
 .wholesale-supply__pic {
-  background-image: url(/pastry.png);
-  background-size: 100% 100%;
+  background: url(/pastry.png) 100%;
   width: 469px;
   height: 369px;
 }
@@ -92,9 +91,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 83px;
   gap: 51px;
-  padding-bottom: 113px;
+  padding: 83px 0px 113px 0px;
 }
 
 .minor-heading {
@@ -116,9 +114,7 @@
 }
 
 .wholesale-offer__option-background {
-  background-color: #FFFFFF;
-  background-repeat: no-repeat;
-  background-position: center;
+  background: #FFFFFF no-repeat center;
   width: 90px;
   height: 90px;
   border-radius: 50%;
@@ -165,8 +161,7 @@
 }
 
 .wholesale-order {
-  padding-top: 76px;
-  padding-bottom: 76px;
+  padding: 76px 0px 76px 0px;
   background-color: #F7EBE5;
   display: flex;
   flex-direction: column;
@@ -236,8 +231,7 @@
 }
 
 .wholesale-reviews {
-  padding-top: 67px;
-  padding-bottom: 59px;
+  padding: 67px 0px 59px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -290,11 +284,9 @@
 }
 
 .review__logo {
-  background-image: url(/edge.png);
+  background: url(/edge.png) no-repeat center / contain;
   width: 36px;
   height: 36px;
-  background-size: 100%;
-  background-repeat: no-repeat;
 }
 
 .divider {
@@ -337,7 +329,7 @@
 .brand {
   width: 133px;
   height: 93px;
-  background-size: 100%;
+  background-size: contain;
   background-color: transparent;
   background-repeat: no-repeat;
   padding-top: 23px;
