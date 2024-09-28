@@ -1,6 +1,7 @@
-import styles from './page.module.css';
-
 import Container from '@/app/components/Container';
+import Breadcrumb from '@/app/shared/ui/Breadcrumb';
+
+import styles from './page.module.css';
 
 const Privacy = () => {
   return (
@@ -8,10 +9,10 @@ const Privacy = () => {
       <div className={styles.privacy_wrapper}>
         <Container>
           <div className={styles.privacy_policy}>
-            <nav className={styles.breadcrumbs}>
-              <a href='/'>Главная</a> &gt;{' '}
-              <span className={styles.span_policy}>Политика конфиденциальности</span>
-            </nav>
+
+<Breadcrumb homeElement={'Главная'} separator={<span>&gt;</span>} translatedLink={'Политика конфиденциальности'}/>
+
+
 
             <h1 className={styles.page_title}>Политика конфиденциальности</h1>
 

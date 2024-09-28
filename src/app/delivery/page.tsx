@@ -2,39 +2,29 @@ import Image from 'next/image';
 import styles from './page.module.css';
 
 import Container from '@/app/components/Container';
-import Link from 'next/link';
+import Breadcrumb from '@/app/shared/ui/Breadcrumb';
 
 const Delivery = () => {
   return (
     <section>
       <div className={styles.bg}>
         <Container>
-          <nav aria-label='Breadcrumb' className={styles.breadcrumb}>
-            <ul className={styles.breadcrumb_list}>
-              <li>
-                <Link href='/'>Главная</Link>
-              </li>
-              <li>
-                <span aria-current='page' className={styles.current}>
-                  Доставка и оплата
-                </span>
-              </li>
-            </ul>
-          </nav>
+          <Breadcrumb homeElement={'Главная'} separator={'>'} translatedLink={'Доставка и оплата'} />
           <div className={styles.delivery_wrapper}>
             <Image src='/bike.png' alt='bike' width={476} height={330} />
             <div className={styles.delivery_info}>
               <h2 className={styles.delivery_title}>Доставка и оплата</h2>
               <p className={styles.delivery_description}>
-                Для наших покупателей доступны 2 способа доставки: <span className={styles.accent}>курьерская доставка</span> по
-                Санкт-Петербургу в пределах КАД и <span className={styles.accent}>самовывоз</span>.
+                Для наших покупателей доступны 2 способа доставки:
+                <span className={styles.accent}>курьерская доставка</span> по Санкт-Петербургу в
+                пределах КАД и <span className={styles.accent}>самовывоз</span>.
               </p>
               <h3 className={styles.subtitle}>Курьерская доставка:</h3>
               <div className={styles.text}>
                 <p>
                   Курьеры работают каждый день с 11 до 21 часа. Доставка макарон осуществляется
                   только по Санкт-Петербургу в пределах кольцевой автомобильной дороги (КАД). Точная
-                  зона доставки.{' '}
+                  зона доставки.
                 </p>
                 <p>
                   Если Вы готовы принять заказ в интервале с 12 до 17 часов или с 17 до 21 часа, то
