@@ -33,7 +33,7 @@
 }
 
 .wholesale-supply__pic {
-  background-image: url('/pastry.png');
+  background-image: url(/pastry.png);
   background-size: 100% 100%;
   width: 469px;
   height: 369px;
@@ -136,35 +136,35 @@
 }
 
 .gifts {
-  background-image: url('/svg/gifts.svg');
+  background-image: url(/svg/gifts.svg);
 }
 
 .eshops {
-  background-image: url('/svg/eshops.svg');
+  background-image: url(/svg/eshops.svg);
 }
 
 .cafes {
-  background-image: url('/svg/cafeRestaraunts.svg');
+  background-image: url(/svg/cafeRestaraunts.svg);
 }
 
 .coffeeshops {
-  background-image: url('/svg/coffeshops.svg');
+  background-image: url(/svg/coffeshops.svg);
 }
 
 .hotels {
-  background-image: url('/svg/hotels.svg');
+  background-image: url(/svg/hotels.svg);
 }
 
 .retail {
-  background-image: url('/svg/retail.svg');
+  background-image: url(/svg/retail.svg);
 }
 
 .candybars {
-  background-image: url('/svg/candybars.svg');
+  background-image: url(/svg/candybars.svg);
 }
 
 .otherspheres {
-  background-image: url('/svg/otherspheres.svg');
+  background-image: url(/svg/otherspheres.svg);
 }
 
 .wholesale-order {
