@@ -132,6 +132,7 @@ const Wholesale = () => {
           </div>
         </div>
       </Container>
+      <div className={styles.bg}>
       <Container>
         <div className={styles['wholesale-order']}>
           <h3 className={styles['minor-heading']}>Заказать расчёт или отправить запрос на сотрудничество</h3>
@@ -197,6 +198,7 @@ const Wholesale = () => {
           </div>
         </div>
       </Container>
+      </div>
       <Container>
         <div className={styles['wholesale-reviews']}>
           <h3 className={styles['minor-heading']}>Нас рекомендуют</h3>
