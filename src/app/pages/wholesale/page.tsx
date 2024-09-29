@@ -37,19 +37,6 @@ const offers = [{
   },
 ];
 
-function GenerateOffers() {
-  return (
-    <>
-    {offers.map(offer =>
-      <div className={styles['wholesale-offer__option']} key={offer.id}>
-        <div className={[styles['wholesale-offer__option-background'], styles[offer.className]].join(' ')}></div>
-        <span>{offer.text}</span>
-      </div>
-    )}
-    </>
-  )
-}
-
 function generateUser() {
   return (
     <>
@@ -96,7 +83,12 @@ const Wholesale = () => {
         <div className={styles['wholesale-offer']}>
           <h3 className={styles['minor-heading']}>Что мы можем вам предложить:</h3>
           <div className={styles['wholesale-offer__options']}>
-            {GenerateOffers()}
+            {offers.map(offer =>
+              <div className={styles['wholesale-offer__option']} key={offer.id}>
+                <div className={[styles['wholesale-offer__option-background'], styles[offer.className]].join(' ')}></div>
+                <span>{offer.text}</span>
+              </div>
+            )}
           </div>
         </div>
         <div className={styles['wholesale-order']}>
