@@ -29,6 +29,8 @@
   width: 100%;
   justify-content: space-evenly;
   padding-top: 87px;
+  position: relative;
+  z-index: 10;
 }
 
 .wholesale-supply__pic {
@@ -364,4 +366,35 @@
 
 .bg {
   background-color: #F7EBE5;
+}
+
+.ellipse {
+  border-radius: 50%;
+  filter: blur(30px);
+  position: absolute;
+  z-index: 1;
+}
+
+.firstellipse {
+  background-color: rgba(255, 201, 162, 41%);
+  width: 192px;
+  height: 192px;
+  top: 430px;
+  left: 55px;
+}
+
+.secondellipse {
+  background-color: rgb(255, 242, 224);
+  width: 248px;
+  height: 248px;
+  top: 379px;
+  left: 415px;
+}
+
+.thirdellipse {
+  background-color: rgba(181, 215, 255, 27%);
+  width: 276px;
+  height: 276px;
+  top: 243px;
+  right: 67px;
 }
