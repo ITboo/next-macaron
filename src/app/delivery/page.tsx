@@ -16,7 +16,7 @@ const Delivery = () => {
               <h2 className={styles.delivery_title}>Доставка и оплата</h2>
               <p className={styles.delivery_description}>
                 Для наших покупателей доступны 2 способа доставки:
-                <span className={styles.accent}>курьерская доставка</span> по Санкт-Петербургу в
+                <span className={styles.accent}> курьерская доставка</span> по Санкт-Петербургу в
                 пределах КАД и <span className={styles.accent}>самовывоз</span>.
               </p>
               <h3 className={styles.subtitle}>Курьерская доставка:</h3>

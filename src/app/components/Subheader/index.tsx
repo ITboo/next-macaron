@@ -7,7 +7,7 @@ import Image from 'next/image';
 const linksArray = [
       {
         title: 'Гарантия свежести',
-        href: '/pages/quality-assurance'
+        href: '/quality-assurance'
       },
       {
         title: 'Доставка и оплата',
@@ -15,7 +15,7 @@ const linksArray = [
       },
       {
         title: 'Оптовые поставки',
-        href: '/pages/wholesale'
+        href: '/wholesale'
       },
       {
         title: 'Контакты',

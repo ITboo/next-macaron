@@ -32,7 +32,7 @@ const linksArray = [
       },
       {
         title: 'Гарантии вкуса и свежести',
-        href: '/'
+        href: '/quality-assurance'
       },
       {
         title: 'Доставка и оплата',
@@ -74,11 +74,11 @@ const linksArray = [
       },
       {
         title: 'Для юридических лиц',
-        href: '/'
+        href: '/wholesale'
       },
       {
         title: 'Оптовикам',
-        href: '/'
+        href: '/wholesale'
       }
     ]
   }

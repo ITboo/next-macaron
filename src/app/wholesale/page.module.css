@@ -1,35 +1,13 @@
 .wholesale {
-  background-color: #f7f7f7;
-  padding-top: 34px;
-  color: #292929;
-}
-
-.breadcrumbs {
-  display: flex;
-  justify-content: center;
-  gap: 5px;
-  font-size: 14px;
-}
-
-.breadcrumbs span:not(._active) {
-  opacity: 46%;
-}
-
-.breadcrumbs span:not(:last-child)::after {
-  content: ">";
-  padding-left: 5px;
-}
-
-._active {
-  color: #4E9DD3;
+  background-color: var(--darker-background);
 }
 
 .wholesale-supply {
   display: flex;
   width: 100%;
   justify-content: space-evenly;
-  padding-top: 87px;
   position: relative;
+  padding-top: 60px;
   z-index: 10;
 }
 
@@ -64,7 +42,7 @@
 }
 
 .wholesale-supply__btn {
-  border: #4E9DD3 solid 1px;
+  border: var(--blue) solid 1px;
   width: 230px;
   height: 50px;
   background-color: transparent;
@@ -121,7 +99,7 @@
 }
 
 .wholesale-offer__option-background {
-  background: #FFFFFF no-repeat center;
+  background: var(--background) no-repeat center;
   width: 90px;
   height: 90px;
   border-radius: 50%;
@@ -215,7 +193,7 @@
 }
 
 .wholesale-order__btn {
-  background-color: #E7426A;
+  background-color: var(--accent);
   color: #FFFFFF;
   width: 254px;
   height: 50px;
@@ -231,8 +209,9 @@
   font-size: 11px;
 }
 
-.agreement-link {
-  color: #4E9DD3;
+.agreement_link {
+  font-size: 12px;
+  color: var(--blue);
   text-decoration: underline;
 }
 
@@ -261,7 +240,7 @@
   border: 1px #EDEDF0 solid;
   border-radius: 5px;
   padding: 30px 20px 30px 20px;
-  background-color: #FFFFFF;
+  background-color: var(--background);
   display: flex;
   flex-direction: column;
   gap: 11px;
@@ -350,11 +329,11 @@
   width: 12px;
   height: 12px;
   outline: 1px #E5E5E5 solid;
-  background-color: #FFFFFF;
+  background-color: var(--background);
 }
 
 ._current {
-  background-color: #E7426A;
+  background-color: var(--accent);
   
 }
 
