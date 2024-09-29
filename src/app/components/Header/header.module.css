@@ -1,3 +1,7 @@
+.header{
+  font-weight: 500;
+}
+
 .main_menu{
   display: flex;
   align-items: center;

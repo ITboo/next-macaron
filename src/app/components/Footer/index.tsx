@@ -36,11 +36,11 @@ const linksArray = [
       },
       {
         title: 'Доставка и оплата',
-        href: '/'
+        href: '/delivery'
       },
       {
         title: 'Контакты',
-        href: '/'
+        href: '/contacts'
       }
     ]
   },

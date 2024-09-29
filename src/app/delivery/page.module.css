@@ -1,42 +1,19 @@
 .bg {
-  background-color: #ebedee;
-  padding-top: 41px;
-  padding-bottom: 64px;
+  background-color: var(--darker-background);
+margin-bottom: 60px;
+
 }
 
 .accent {
   font-weight: bold;
 }
 
-.breadcrumb {
-  padding: 0 0.5rem;
-}
-
-.breadcrumb_list {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  list-style: none;
-  color: gray;
-  margin: 0;
-  padding: 0;
-}
-
-.breadcrumb li:not(:last-child)::after {
-  display: inline-block;
-  margin: 0 0.25rem;
-  content: '>';
-}
-
-.current {
-  color: #4e9dd3;
-}
-
 .delivery_wrapper {
-  padding: 70px 0;
   display: flex;
   align-items:center;
+  justify-content: center;
   gap: 100px;
+  padding-bottom: 60px;
 }
 
 .delivery_info {

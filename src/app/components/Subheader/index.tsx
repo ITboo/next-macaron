@@ -11,7 +11,7 @@ const linksArray = [
       },
       {
         title: 'Доставка и оплата',
-        href: '/pages/delivery'
+        href: '/delivery'
       },
       {
         title: 'Оптовые поставки',
@@ -19,7 +19,7 @@ const linksArray = [
       },
       {
         title: 'Контакты',
-        href: '/pages/contacts'
+        href: '/contacts'
       }
 ];
 
