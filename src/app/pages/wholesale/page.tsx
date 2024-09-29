@@ -95,6 +95,8 @@ const Wholesale = () => {
           <span>Главная</span>
           <span className={styles._active}>Предложения для юридических лиц</span>
         </div>
+        </Container>
+        <Container>
         <div className={styles['wholesale-supply']}>
           <div className={styles['wholesale-supply__pic']}></div>
           <div className={styles['wholesale-supply__info']}>
@@ -116,6 +118,8 @@ const Wholesale = () => {
             </div>
           </div>
         </div>
+      </Container>
+      <Container>
         <div className={styles['wholesale-offer']}>
           <h3 className={styles['minor-heading']}>Что мы можем вам предложить:</h3>
           <div className={styles['wholesale-offer__options']}>
@@ -127,6 +131,8 @@ const Wholesale = () => {
             )}
           </div>
         </div>
+      </Container>
+      <Container>
         <div className={styles['wholesale-order']}>
           <h3 className={styles['minor-heading']}>Заказать расчёт или отправить запрос на сотрудничество</h3>
           <div className={styles['wholesale-order__contact-form']}>
@@ -190,6 +196,8 @@ const Wholesale = () => {
             <span className={styles['agreement-link']}>Политикой конфиденциальности</span>
           </div>
         </div>
+      </Container>
+      <Container>
         <div className={styles['wholesale-reviews']}>
           <h3 className={styles['minor-heading']}>Нас рекомендуют</h3>
           <div className={styles.reviews}>
