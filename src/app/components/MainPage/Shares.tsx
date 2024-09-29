@@ -5,6 +5,7 @@ import candiesIcecream from '../../../../public/mainSharesCandiesIсecream.png';
 import cookiesPizz from '../../../../public/mainSharesCookiesPizza.png';
 import eclair from '../../../../public/mainSharesEclair.png';
 import SharesItem from './SharesItem';
+
 interface CardsShares {
   id: number;
   title: string;
@@ -19,28 +20,29 @@ const sharesData: CardsShares[] = [
     title: 'Бесплатная доставка',
     text: 'По СПб в районе КАД –  от 3000₽ По МСК – от 5000₽',
     image: blueCoffee,
-    color: 'rgba(140, 196, 236, 1)'
+    // color: 'rgba(140, 196, 236, 1)'
+    color: 'var(--blue)'
   },
   {
     id: 1,
     title: 'Новинка',
     text: 'Шоколадное пирожное картошка на основе бисквита!',
     image: eclair,
-    color: 'rgba(255, 77, 109, 1)'
+    color: 'var(--accent)'
   },
   {
     id: 2,
     title: 'Новинка',
     text: 'Аппетитные конфеты на основе миндального печенья и крема',
     image: candiesIcecream,
-    color: 'rgba(255, 77, 109, 1)'
+    color: 'var(--accent)'
   },
   {
     id: 3,
     title: 'Сладкая Новинка',
     text: 'Карамель на палочке из натуральных ингредиентов',
     image: cookiesPizz,
-    color: 'rgba(255, 77, 109, 1)'
+    color: 'var(--accent)'
   }
 ];
 
