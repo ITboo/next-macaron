@@ -87,6 +87,10 @@
   font-size: 0.5px;
 }
 
+.wholesale-supply__description ul > li {
+  list-style-type: disc;
+}
+
 .wholesale-offer {
   display: flex;
   flex-direction: column;
