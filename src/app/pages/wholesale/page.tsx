@@ -55,6 +55,25 @@ const supplies = [{
   },
 ];
 
+const brands = [
+  {
+    className: 'metro',
+    id: 0,
+  }, {
+    className: 'zenit',
+    id: 1
+  }, {
+    className: 'mvideo',
+    id: 2,
+  }, {
+    className: 'gazprom',
+    id: 3,
+  }, {
+    className: 'zarina',
+    id: 4,
+  },
+];
+
 
 function generateUser() {
   return (
@@ -204,12 +223,9 @@ const Wholesale = () => {
             </div>
           </div>
           <div className={styles['wholesale-review__brands']}>
-            <div className={[styles.brand, styles.sber].join(' ')}></div>
-            <div className={[styles.brand, styles.metro].join(' ')}></div>
-            <div className={[styles.brand, styles.zenit].join(' ')}></div>
-            <div className={[styles.brand, styles.mvideo].join(' ')}></div>
-            <div className={[styles.brand, styles.gazprom].join(' ')}></div>
-            <div className={[styles.brand, styles.zarina].join(' ')}></div>
+            {brands.map(brand =>
+              <div key={brand.id} className={[styles.brand, styles[brand.className]].join(' ')}></div>
+            )}
           </div>
           <div className={styles['pagination']}>
             <div className={[styles['pagination__element'], styles['_current']].join(' ')}></div>
