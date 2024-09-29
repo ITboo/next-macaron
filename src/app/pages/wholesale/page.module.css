@@ -1,0 +1,400 @@
+.wholesale {
+  background-color: #f7f7f7;
+  padding-top: 34px;
+  color: #292929;
+}
+
+.breadcrumbs {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  font-size: 14px;
+}
+
+.breadcrumbs span:not(._active) {
+  opacity: 46%;
+}
+
+.breadcrumbs span:not(:last-child)::after {
+  content: ">";
+  padding-left: 5px;
+}
+
+._active {
+  color: #4E9DD3;
+}
+
+.wholesale-supply {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding-top: 87px;
+  position: relative;
+  z-index: 10;
+}
+
+.wholesale-supply__pic {
+  background: url(/pastry.png) 100%;
+  width: 469px;
+  height: 369px;
+}
+
+.wholesale-supply__info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  width: 670px;
+}
+
+.heading {
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.wholesale-supply__buyInfo {
+  font-size: 16px;
+  width: 500px;
+  text-align: center;
+}
+
+.wholesale-supply__btns-container {
+  display: flex;
+  gap: 10px;
+}
+
+.wholesale-supply__btn {
+  border: #4E9DD3 solid 1px;
+  width: 230px;
+  height: 50px;
+  background-color: transparent;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.wholesale-supply__description {
+  padding-top: 25px;
+  font-size: 15px;
+}
+
+.wholesale-supply__description span ul > li {
+  text-align: left;
+}
+
+.wholesale-supply__description ul {
+  padding-left: 30px;
+}
+
+.wholesale-supply__description ul > li::marker {
+  font-size: 0.5px;
+}
+
+.wholesale-supply__description ul > li {
+  list-style-type: disc;
+}
+
+.wholesale-offer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 51px;
+  padding: 83px 0px 113px 0px;
+}
+
+.minor-heading {
+  font-size: 30px;
+}
+
+.wholesale-offer__options {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 54px;
+  justify-content: space-around;
+}
+
+.wholesale-offer__options span {
+  font-size: 14px;
+  font-weight: 700;
+  width: 268px;
+  text-align: center;
+}
+
+.wholesale-offer__option-background {
+  background: #FFFFFF no-repeat center;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+.wholesale-offer__option {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+}
+
+.gifts {
+  background-image: url(/svg/gifts.svg);
+}
+
+.eshops {
+  background-image: url(/svg/eshops.svg);
+}
+
+.cafes {
+  background-image: url(/svg/cafeRestaraunts.svg);
+}
+
+.coffeeshops {
+  background-image: url(/svg/coffeshops.svg);
+}
+
+.hotels {
+  background-image: url(/svg/hotels.svg);
+}
+
+.retail {
+  background-image: url(/svg/retail.svg);
+}
+
+.candybars {
+  background-image: url(/svg/candybars.svg);
+}
+
+.otherspheres {
+  background-image: url(/svg/otherspheres.svg);
+}
+
+.wholesale-order {
+  padding: 76px 0px 76px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 23px;
+}
+
+.wholesale-order__contact-form {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.contact-form__column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.column__container {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.column__container label {
+  font-size: 13px;
+}
+
+.wholesale-order h3 {
+  width: 650px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.wholesale-order__form {
+  width: 370px;
+  height: 50px;
+  border: 1px solid #EDEDF0;
+  font-size: 16px;
+}
+
+.commentary {
+  height: 139px;
+}
+
+.wholesale-order__btn {
+  background-color: #E7426A;
+  color: #FFFFFF;
+  width: 254px;
+  height: 50px;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 3px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.wholesale-order span {
+  font-size: 11px;
+}
+
+.agreement-link {
+  color: #4E9DD3;
+  text-decoration: underline;
+}
+
+.wholesale-reviews {
+  padding: 67px 0px 59px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.reviews {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.reviews__column-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.review {
+  width: 332px;
+  border: 1px #EDEDF0 solid;
+  border-radius: 5px;
+  padding: 30px 20px 30px 20px;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.review__heading {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.review__text {
+  font-size: 16px;
+}
+
+.review__user {
+  display: flex;
+  justify-content: flex-end;
+  gap: 13px;
+  padding-top: 15px;
+}
+
+.review__user span {
+  text-align: right;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.review__logo {
+  background: url(/edge.png) no-repeat center / contain;
+  width: 36px;
+  height: 36px;
+}
+
+.divider {
+  width: 100%;
+  background-color: #EDEDF0;
+  height: 1px;
+  margin-top: 10px;
+}
+
+.wholesale-review__brands {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.sber {
+  background-image: url(/sberbank.png);
+}
+
+.metro {
+  background-image: url(/spb.png)
+}
+
+.zenit {
+  background-image: url(/Zenit.png)
+}
+
+.mvideo {
+  background-image: url(/mvideo.png)
+}
+
+.gazprom {
+  background-image: url(/gazprom.png)
+}
+
+.zarina {
+  background-image: url(/zarina.png)
+}
+
+.brand {
+  width: 133px;
+  height: 93px;
+  background-size: contain;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  padding-top: 23px;
+}
+
+.pagination {
+  display: flex;
+  gap: 10px;
+}
+
+.pagination__element {
+  width: 12px;
+  height: 12px;
+  outline: 1px #E5E5E5 solid;
+  background-color: #FFFFFF;
+}
+
+._current {
+  background-color: #E7426A;
+  
+}
+
+.wholesale-order__form::placeholder {
+  padding-left: 15px;
+  font-size: 16px;
+  color: rgba(41, 41, 41, 40%);
+}
+
+.bg {
+  background-color: #F7EBE5;
+}
+
+.ellipse {
+  border-radius: 50%;
+  filter: blur(30px);
+  position: absolute;
+  z-index: 1;
+}
+
+.firstellipse {
+  background-color: rgba(255, 201, 162, 41%);
+  width: 192px;
+  height: 192px;
+  top: 430px;
+  left: 55px;
+}
+
+.secondellipse {
+  background-color: rgb(255, 242, 224);
+  width: 248px;
+  height: 248px;
+  top: 379px;
+  left: 415px;
+}
+
+.thirdellipse {
+  background-color: rgba(181, 215, 255, 27%);
+  width: 276px;
+  height: 276px;
+  top: 243px;
+  right: 67px;
+}
