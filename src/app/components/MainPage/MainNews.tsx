@@ -4,6 +4,7 @@ import doughnut from '../../../../public/mainNewsDoughnut.png';
 import badge from '../../../../public/mainNewsBadge.png';
 import chips from '../../../../public/mainNewsChips.png';
 import MainNewsItem from './MainNewsItem';
+import Link from 'next/link';
 
 interface CardMainNews {
   id: number;
@@ -48,7 +49,7 @@ function MainNews() {
           <MainNewsItem key={mainNews.id} {...mainNews} />
         ))}
       </div>
-      <button className={styles.all_news}>Все новости</button>
+      <Link href={'/news'}><button className={styles.all_news}>Все новости</button></Link>
     </section>
   );
 }

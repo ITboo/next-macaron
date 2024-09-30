@@ -1,0 +1,15 @@
+.bg{
+    background-color: var(--darker-background);
+padding-bottom: 90px;
+}
+
+.filter_container{
+    display: flex;
+    gap: 5px;
+}
+
+.news_container{
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+}

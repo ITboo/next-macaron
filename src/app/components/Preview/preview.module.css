@@ -1,0 +1,27 @@
+.preview{
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    height: 420px;
+    background-color: var(--background);
+}
+
+.text{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.date{
+    color: #969696;
+}
+
+.title{
+font-size: 18px;
+font-weight: 600;
+}
+
+.description{
+font-size: 14px;
+}
