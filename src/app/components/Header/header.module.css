@@ -1,0 +1,23 @@
+.header{
+  font-weight: 500;
+}
+
+.main_menu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.bg{
+  padding: 18px 0;
+  font-size: 14px;
+}
+
+.menu__item{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

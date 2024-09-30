@@ -1,0 +1,45 @@
+.bg {
+  background-color: var(--darker-background);
+margin-bottom: 60px;
+
+}
+
+.accent {
+  font-weight: bold;
+}
+
+.delivery_wrapper {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  gap: 100px;
+  padding-bottom: 60px;
+}
+
+.delivery_info {
+  max-width: 470px;
+}
+.delivery_title {
+  font-size: 42px;
+  margin: 24px 0;
+}
+
+.delivery_description{
+  margin: 17px 0;
+}
+
+.subtitle {
+  margin-bottom: 7px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.map {
+  border: 0;
+  width: 100%;
+}
+
+.text p {
+  margin-bottom: 10px;
+  line-height: 130%;
+}

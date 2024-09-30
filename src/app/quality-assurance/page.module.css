@@ -1,0 +1,49 @@
+.breadcrumb {
+    padding: 0 .5rem;   
+  }
+  
+  .breadcrumb_list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    color: gray;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .breadcrumb li:not(:last-child)::after {
+    display: inline-block;
+    margin: 0 .25rem;
+    content: ">";
+  }
+
+.current{
+    color: #4E9DD3;
+}
+.qa_container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 40px 0 80px;
+}
+
+.qa_title{
+    text-align: center;
+    font-size: 30px;
+    margin: 24px 0;
+}
+
+.qa_text{
+  margin: 0 auto;
+    text-align: center;
+    width: 670px;
+}
+
+.qa_description{
+    margin-top: 22px;
+    width: 270px;
+}

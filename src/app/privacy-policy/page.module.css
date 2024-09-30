@@ -1,0 +1,29 @@
+.privacy_wrapper {
+  background-color: #e5e5e5;
+  padding-bottom: 60px;
+}
+
+.page_title {
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+  line-height: 36.57px;
+  margin-bottom: 29px;
+}
+
+.privacy_policy_content {
+  background-color: var(--background);
+  padding: 45px 24px 55px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 137%;
+}
+
+.subtitle_policy {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.privacy_title {
+  margin: 10px 0 5px;
+}

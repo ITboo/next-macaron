@@ -1,0 +1,69 @@
+.since {
+  width: 100%;
+  height: 475px;
+  display: flex;
+  justify-content: end;
+  position: relative;
+}
+.heart {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+.ellipse {
+  position: absolute;
+  right: 0;
+}
+.since_title {
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 51.2px;
+}
+.content {
+  width: 570px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 1;
+}
+.macaron {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.macaron_text {
+  text-transform: uppercase;
+}
+.since_date {
+  display: flex;
+  gap: 10px;
+}
+.line {
+  /* flex: 1; */
+  height: 2px;
+  width: 29px;
+  background-color: #000;
+  margin: 10px 0;
+}
+.macaron span:nth-child(1) {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26.8px;
+}
+.macaron span:nth-child(2) {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19.5px;
+}
+.since_text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.9px;
+  color: #292929;
+}
