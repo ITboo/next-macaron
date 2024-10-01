@@ -145,76 +145,6 @@
   background-image: url(/svg/otherspheres.svg);
 }
 
-.wholesale-order {
-  padding: 76px 0px 76px 0px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 23px;
-}
-
-.wholesale-order__contact-form {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-}
-
-.contact-form__column {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-.column__container {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-.column__container label {
-  font-size: 13px;
-}
-
-.wholesale-order h3 {
-  width: 650px;
-  text-align: center;
-  padding-bottom: 40px;
-}
-
-.wholesale-order__form {
-  width: 370px;
-  height: 50px;
-  border: 1px solid #EDEDF0;
-  font-size: 16px;
-}
-
-.commentary {
-  height: 139px;
-}
-
-.wholesale-order__btn {
-  background-color: var(--accent);
-  color: #FFFFFF;
-  width: 254px;
-  height: 50px;
-  border: none;
-  font-size: 14px;
-  font-weight: 600;
-  border-radius: 3px;
-  margin-top: 10px;
-  cursor: pointer;
-}
-
-.wholesale-order span {
-  font-size: 11px;
-}
-
-.agreement_link {
-  font-size: 12px;
-  color: var(--blue);
-  text-decoration: underline;
-}
-
 .wholesale-reviews {
   padding: 67px 0px 59px 0px;
   display: flex;
@@ -335,12 +265,6 @@
 ._current {
   background-color: var(--accent);
   
-}
-
-.wholesale-order__form::placeholder {
-  padding-left: 15px;
-  font-size: 16px;
-  color: rgba(41, 41, 41, 40%);
 }
 
 .bg {
