@@ -70,7 +70,7 @@ const linksArray = [
     links: [
       {
         title: 'Корпоративные подарки',
-        href: '/'
+        href: '/corporate-gifts'
       },
       {
         title: 'Для юридических лиц',
