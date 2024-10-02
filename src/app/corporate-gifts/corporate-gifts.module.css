@@ -1,3 +1,65 @@
 .corporate-gifts {
   background-color: var(--darker-background);
 }
+
+.corporate-gifts__description {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.corporate-gifts__pic {
+  background: url(/corporategifts.png) 100%;
+  width: 521px;
+  height: 443px;
+}
+
+.heading {
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.corporate-gifts__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 670px;
+  gap: 28px;
+  padding-top: 80px;
+}
+
+.corporate-gift__main-info {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  width: 568px;
+  align-items: center;
+}
+
+.corporate-gift__main-info > span {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  width: 568px;
+  align-items: center;
+  text-align: center;
+}
+
+.corporate-gifts__btn {
+  background-color: var(--accent);
+  color: #FFFFFF;
+  width: 302px;
+  height: 50px;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 3px;
+  margin-top: 10px;
+  cursor: pointer;
+  }
+
+.corporate-gifts__info > span {
+  padding-top: 37px;
+  font-size: 14px;
+  line-height: 22px;
+}
