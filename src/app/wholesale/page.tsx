@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Breadcrumb from '../shared/ui/Breadcrumb';
 import styles from './page.module.css';
+import Brands from '../components/Brands'
 
 import Container from '@/app/components/Container';
 
@@ -66,29 +67,6 @@ const supplies = [
   },
   {
     text: 'гибкие условия сотрудничества и поставок.',
-    id: 4
-  }
-];
-
-const brands = [
-  {
-    className: 'metro',
-    id: 0
-  },
-  {
-    className: 'zenit',
-    id: 1
-  },
-  {
-    className: 'mvideo',
-    id: 2
-  },
-  {
-    className: 'gazprom',
-    id: 3
-  },
-  {
-    className: 'zarina',
     id: 4
   }
 ];
@@ -277,19 +255,7 @@ const Wholesale = () => {
               </div>
             </div>
           </div>
-          <div className={styles['wholesale-review__brands']}>
-            {brands.map((brand) => (
-              <div
-                key={brand.id}
-                className={[styles.brand, styles[brand.className]].join(' ')}
-              ></div>
-            ))}
-          </div>
-          <div className={styles['pagination']}>
-            <div className={[styles['pagination__element'], styles['_current']].join(' ')}></div>
-            <div className={styles['pagination__element']}></div>
-            <div className={styles['pagination__element']}></div>
-          </div>
+          <Brands />
         </div>
       </Container>
     </section>
