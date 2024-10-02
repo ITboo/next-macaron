@@ -1,8 +1,9 @@
-import Link from 'next/link';
+// import Link from 'next/link';
 import Breadcrumb from '../shared/ui/Breadcrumb';
 import styles from './page.module.css';
 
 import Container from '@/app/components/Container';
+import OrderForm from '../components/OrderForm';
 
 const offers = [
   {
@@ -158,71 +159,7 @@ const Wholesale = () => {
       </Container>
       <div className={styles.bg}>
         <Container>
-          <div className={styles['wholesale-order']}>
-            <h3 className={styles['minor-heading']}>
-              Заказать расчёт или отправить запрос на сотрудничество
-            </h3>
-            <div className={styles['wholesale-order__contact-form']}>
-              <div className={styles['contact-form__column']}>
-                <div className={styles['column__container']}>
-                  <label htmlFor='name'>Ваше имя*</label>
-                  <input
-                    className={styles['wholesale-order__form']}
-                    id='name'
-                    type='text'
-                    placeholder='Укажите имя'
-                    required
-                  />
-                </div>
-                <div className={styles['column__container']}>
-                  <label htmlFor='phone'>Ваш телефон*</label>
-                  <input
-                    className={styles['wholesale-order__form']}
-                    type='tel'
-                    id='phone'
-                    placeholder='+7 (___) ___-__-__'
-                    pattern='^(\+7|7|8)?[\s\-]?\(?[489][0-9]{2}\)?[\s\-]?[0-9]{3}[\s\-]?[0-9]{2}[\s\-]?[0-9]{2}$'
-                    required
-                  />
-                </div>
-              </div>
-              <div className={styles['contact-form__column']}>
-                <div className={styles['column__container']}>
-                  <label htmlFor='company'>Название компании</label>
-                  <input
-                    className={styles['wholesale-order__form']}
-                    type='text'
-                    id='company'
-                    placeholder='Укажите имя'
-                  />
-                </div>
-                <div className={styles['column__container']}>
-                  <label htmlFor='email'>E-mail</label>
-                  <input
-                    className={styles['wholesale-order__form']}
-                    type='email'
-                    id='email'
-                    placeholder='example@domain.com'
-                  />
-                </div>
-              </div>
-              <div className={styles['column__container']}>
-                <label htmlFor='commentary'>Добавить комментарий</label>
-                <input
-                  className={[styles['wholesale-order__form'], styles.commentary].join(' ')}
-                  type='text'
-                  id='commentary'
-                />
-              </div>
-            </div>
-            <button className={styles['wholesale-order__btn']}>Заказать расчёт</button>
-            <div className={styles['wholesale-order__agreement']}>
-              <span>{'Нажимая на кнопку "Оформить заказ" Я принимаю и соглашаюсь с '}</span>
-              <span className={styles['agreement-link']}>{'Договором оферты '}</span>
-              <span>{'и разрешаю обработку моих персональных данных в соответствии с '}</span>
-              <Link href={'/privacy-policy'} className={styles.agreement_link}> Политикой конфиденциальности</Link>
-            </div>
-          </div>
+            <OrderForm />
         </Container>
       </div>
       <Container>
