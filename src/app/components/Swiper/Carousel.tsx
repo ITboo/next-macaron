@@ -49,6 +49,7 @@ function Carousel() {
         spaceBetween={0}
         slidesPerView={1}
         // navigation
+        speed={1000}
       >
         {carouselData.map((item) => (
           <SwiperSlide key={item.id} className={styles.mySwiper}>
