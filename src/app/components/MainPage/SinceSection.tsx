@@ -2,6 +2,7 @@ import Image from 'next/image';
 import styles from './sinceSection.module.css';
 import heart from '../../../../public/mainHeart.png';
 import ellipse from '../../../../public/mainSinceEllipse.png';
+
 function SinceSection() {
   return (
     <section className={styles.since}>
