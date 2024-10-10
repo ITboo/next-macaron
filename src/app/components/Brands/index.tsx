@@ -27,7 +27,7 @@ const brands = [
 const Brands = () => {
   return (
     <>
-      <div className={styles['wholesale-review__brands']}>
+      <div className={styles['brands']}>
         {brands.map((brand) => (
           <div
             key={brand.id}
