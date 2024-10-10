@@ -281,62 +281,6 @@
   margin-top: 10px;
 }
 
-.wholesale-review__brands {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-}
-
-.sber {
-  background-image: url(/sberbank.png);
-}
-
-.metro {
-  background-image: url(/spb.png)
-}
-
-.zenit {
-  background-image: url(/Zenit.png)
-}
-
-.mvideo {
-  background-image: url(/mvideo.png)
-}
-
-.gazprom {
-  background-image: url(/gazprom.png)
-}
-
-.zarina {
-  background-image: url(/zarina.png)
-}
-
-.brand {
-  width: 133px;
-  height: 93px;
-  background-size: contain;
-  background-color: transparent;
-  background-repeat: no-repeat;
-  padding-top: 23px;
-}
-
-.pagination {
-  display: flex;
-  gap: 10px;
-}
-
-.pagination__element {
-  width: 12px;
-  height: 12px;
-  outline: 1px #E5E5E5 solid;
-  background-color: var(--background);
-}
-
-._current {
-  background-color: var(--accent);
-  
-}
-
 .wholesale-order__form::placeholder {
   padding-left: 15px;
   font-size: 16px;
