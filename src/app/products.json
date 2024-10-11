@@ -1,0 +1,130 @@
+{
+    "macarons": [
+        {
+            "flavor": "Шоколад, банан",
+            "description": "Сезонный вкус: молочный  шоколад, отборные свежие бананы",
+            "photo": "../public/products/chocolate-banana.png"
+        },
+        {
+            "flavor": "Облепиха, розмарин",
+            "description": "Сезонный вкус: белый шоколад, свежие ягоды облепихи, немного розмарина",
+            "photo": "../public/products/hippophae-rosmary.png"
+        },
+        {
+            "flavor": "Чёрный трюфель",
+            "description": "Белый шоколад, сливки и паста из летнего чёрного итальянского трюфеля.",
+            "photo": "../public/products/black-truffle.png"
+        },
+        {
+            "flavor": "Голубой сыр",
+            "description": "Наш самы пикантный и один из самых популярных вкусов. Это нужно попробовать!",
+            "photo": "../public/products/blue-cheese.png"
+        },
+        {
+            "flavor": "Пармезан",
+            "description": "Пикантный сладко-соленый вкус. Начинка изготавливается с использованием настоящего итальянского сыра Parmigiano Reggiano и Grana Padano категории DOP." ,
+            "photo": "../public/products/parmesan.png"
+        },
+        {
+            "flavor": "Песто",
+            "description": "Внутри ингредиетны классического песто - свежий ароматный базилик, итальянский пармезан, кедровые орешки и всё это в виде ганаша на белом шоколаде.",
+            "photo": "../public/products/pesto.png"
+        }
+    ],
+    "eclairs": [
+        {
+            "flavor": "Шоколадный",
+            "description": "Классический эклер с богатым шоколадным кремом.",
+            "photo": "../public/products/eclairs.png"
+        },
+        {
+            "flavor": "Ванильный",
+            "description": "Эклер с нежным ванильным кремом и сахарной глазурью.",
+            "photo": "../public/products/eclairs.png"
+        },
+        {
+            "flavor": "Какао",
+            "description": "Эклер с насыщенным кремом из какао.",
+            "photo": "../public/products/eclairs.png"
+        },
+        {
+            "flavor": "Крем-брюле",
+            "description": "Эклер с кремом-брюле и хрустящей корочкой.",
+            "photo": "../public/products/eclairs.png"
+        },
+        {
+            "flavor": "Кофейный",
+            "description": "Эклер с кофе и баварским кремом.",
+            "photo": "../public/products/eclairs.png"
+        },
+        {
+            "flavor": "Фисташковый",
+            "description": "Эклер с фисташковым кремом и верхом из ядра ореха.",
+            "photo": "../public/products/eclairs.png"
+        }
+    ],
+    "profiteroles": [
+        {
+            "flavor": "Ванильный",
+            "description": "Нежные профитроли с ванильным кремом.",
+            "photo": "../public/products/profitroles.png"
+        },
+        {
+            "flavor": "Шоколадный",
+            "description": "Профитроли с шоколадным кремом, покрытые ганашем.",
+            "photo": "../public/products/profitroles.png"
+        },
+        {
+            "flavor": "Крем-карамель",
+            "description": "Профитроли с соленым кремом карамель.",
+            "photo": "../public/products/profitroles.png"
+        },
+        {
+            "flavor": "Фруктовый микс",
+            "description": "Профитроли с разнообразными фруктовыми начинками.",
+            "photo": "../public/products/profitroles.png"
+        },
+        {
+            "flavor": "Ореховый",
+            "description": "Профитроли с ореховым кремом и кусочками орехов.",
+            "photo": "../public/products/profitroles.png"
+        },
+        {
+            "flavor": "Лимонный",
+            "description": "Профитроли с ярким лимонным кремом.",
+            "photo": "../public/products/profitroles.png"
+        }
+    ],
+    "sets": [
+        {
+            "name": "Сердце",
+            "description": "24 штуки в коробке в виде сердца. Ассорти из 6 вкусов ",
+            "photo": "../public/products/set-heart.png",
+            "price": "2800 руб."
+        },
+        {
+            "name": "Красота спасёт мир ",
+            "description": "Набор 16 шт. Вкусы: клубника - базилик, кокос, голубой сыр, пармезан",
+            "photo": "../public/products/set-beauty.png",
+            "price": "750 руб."
+        },
+        {
+            "name": "Круглый набор",
+            "description": "40 макаронс в круглой коробке с персональной надписью",
+            "photo": "../public/products/set-round.png",
+            "price": "3900 руб."
+        },
+        {
+            "name": "Набор на 9",
+            "description": "Набор из 9 штук в квадратной коробке. Вкусы: шоколад, фисташка, вишня",
+            "photo": "../public/products/set-9.png",
+            "price": "950 руб."
+        },
+        {
+            "name": "Набор на 16",
+            "description": "Набор 16 шт. Вкусы: соленая карамель, голубой сыр, пармезан, шоколад",
+            "photo": "../public/products/set-16.png",
+            "price": "1500 руб."
+        }
+    ]
+}
