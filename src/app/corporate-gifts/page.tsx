@@ -32,6 +32,26 @@ const giftVariants = [
   },
 ];
 
+const completedOrders = [
+  {
+    id: 0,
+    className: 'hotel',
+    description: 'Набор макарон для отеля “Индиго”',
+  }, {
+    id: 1,
+    className: 'caffee',
+    description: 'Набор макарон для кафе “Мята”',
+  }, {
+    is: 2,
+    className: 'newYear',
+    description: 'Новогодний набор макарон “В ожидании чуда”',
+  }, {
+    id: 3,
+    className: 'march',
+    description: 'Набор на 8 марта “Первый весенний цветок”',
+  }
+]
+
 const CorporateGifts = () => {
   return (
     <section className={styles['corporate-gifts']}>
@@ -58,19 +78,36 @@ const CorporateGifts = () => {
           <div className={styles['gifts-variants__container']}>
             {giftVariants.map((variant) => (
               <div className={styles['gift-variant']} key={variant.key}>
-            <div className={[styles['gift-variant__pic'], styles[variant.className]].join(' ')}></div>
-            <div className={styles['gift-variant__text-content']}>
-              <span className={styles['gift-variant__heading']}>{variant.heading}</span>
-            <span className={styles['gift-variant__description']}>{variant.description}</span>
-            <div className={styles.separator}></div>
-            <span className={styles['gift-variant__price']}>{variant.price}</span>
-            </div>
+                <div className={[styles['gift-variant__pic'], styles[variant.className]].join(' ')}></div>
+                <div className={styles['gift-variant__text-content']}>
+                  <span className={styles['gift-variant__heading']}>{variant.heading}</span>
+                  <span className={styles['gift-variant__description']}>{variant.description}</span>
+                  <div className={styles.separator}></div>
+                  <span className={styles['gift-variant__price']}>{variant.price}</span>
+                </div>
+              </div>
+            ))}
           </div>
-          ))}
+          <button className={styles['gift-variant__btn']}>Получить КП</button>
         </div>
-        <button className={styles['gift-variant__btn']}>Получить КП</button>
+      </Container>
+      <Container>
+        <div className={styles['completed-orders__container']}>
+          <h3 className={styles['minor-heading']}>Мы уже выполнили заказы</h3>
+          <div className={styles['completed-orders']}>
+            {completedOrders.map((order) => (
+              <div className={styles['completed-order']} key={order.id}>
+                <div className={[styles['completed-order__pic'], styles[order.className]].join(' ')}></div>
+                <div className={styles['completed-order__description']}>{order.description}</div>
+              </div>
+            ))}
+          </div>
+          <div className={styles['pagination']}>
+            <div className={[styles['pagination__element'], styles['_current']].join(' ')}></div>
+            <div className={styles['pagination__element']}></div>
+            <div className={styles['pagination__element']}></div>
+          </div>
         </div>
-        
       </Container>
     </section>
   )

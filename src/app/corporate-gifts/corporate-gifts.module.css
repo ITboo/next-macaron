@@ -65,7 +65,7 @@
 }
 
 .gift-variants {
-  padding-bottom: 70px;
+  /* padding-bottom: 70px; */
   padding-top: 100px;
   display: flex;
   flex-direction: column;
@@ -164,4 +164,76 @@
   text-align: center;
   color: #FFF;
   margin-top: 33px;
+}
+
+.completed-orders__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+
+}
+
+.completed-orders {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 24px;
+  padding-top: 37px;
+  width: 100%;
+}
+
+.completed-order {
+  border: 1px solid #EDEDF0;
+  border-radius: 5px;
+  width: 271px;
+  height: 272px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.completed-order__pic {
+  width: 243px;
+  height: 192px;
+}
+
+.hotel {
+  background: url(/macaronsForHotel.png);
+}
+
+.caffee {
+  background: url(/macaronsForCaffee.png);
+}
+
+.newYear {
+  background: url(/macaronsForNewYear.png);
+}
+
+.march {
+  background: url(/macaronsForMarch.png);
+}
+
+.completed-order__description {
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--dark-text);
+  width: 235px;
+}
+
+.pagination {
+  display: flex;
+  gap: 10px;
+}
+
+.pagination__element {
+  width: 12px;
+  height: 12px;
+  outline: 1px #E5E5E5 solid;
+  background-color: var(--background);
+}
+
+._current {
+  background-color: var(--accent);
 }
