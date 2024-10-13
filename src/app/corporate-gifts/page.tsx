@@ -1,4 +1,4 @@
-import styles from './corporate-gifts.module.css';
+import styles from './page.module.css';
 
 import Container from '@/app/components/Container';
 import Breadcrumb from '../shared/ui/Breadcrumb';
