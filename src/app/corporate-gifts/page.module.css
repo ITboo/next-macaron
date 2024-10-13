@@ -1,0 +1,331 @@
+.corporate-gifts {
+  background-color: var(--darker-background);
+}
+
+.corporate-gifts__description {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+}
+
+.corporate-gifts__pic {
+  background: url(/corporategifts.png) 100%;
+  width: 521px;
+  height: 443px;
+}
+
+.corporate-gifts__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 670px;
+  gap: 28px;
+  padding-top: 80px;
+}
+
+.corporate-gifts__info > span {
+  padding-top: 37px;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.corporate-gift__main-info {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  width: 568px;
+  align-items: center;
+}
+
+.corporate-gift__main-info > span {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  width: 568px;
+  align-items: center;
+  text-align: center;
+}
+
+.heading {
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.corporate-gifts__btn {
+  background-color: var(--accent);
+  color: #FFFFFF;
+  width: 302px;
+  height: 50px;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 3px;
+  margin-top: 10px;
+  cursor: pointer;
+  }
+
+.gift-variants {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gifts-variants__container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.gift-variant {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+  border: 1px solid #EDEDF0;
+  border-radius: 5px;
+  width: 271px;
+  height: 413px;
+}
+
+.gift-variant__pic {
+  width: 243px;
+  height: 192px;
+  margin-top: 22px;
+}
+
+.pic_threeMacaroons {
+  background: url(/corporateGifts3Macarons.png);
+}
+
+.pic_nineMacaroons {
+  background: url(/corporateGifts9Macarons.png);
+}
+
+.pic_fortyMacaroons {
+  background: url(/corporateGifts40Macarons.png);
+}
+
+.pic_seventyMacaroons {
+  background: url(/corporateGifts70Macarons.png);
+}
+
+.gift-variant__text-content {
+  display: flex;
+  flex-direction: column;
+  padding-left: 21px;
+}
+
+.gift-variant__heading {
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--dark-text);
+}
+
+.gift-variant__description {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--dark-text);
+  opacity: .8;
+  padding-top: 7px;
+}
+
+.gift-variant__text-content .separator {
+  margin-top: 53px;
+}
+
+.gift-variant__price {
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--accent);
+  padding-top: 15px;
+}
+
+.gift-variant__btn {
+  border-radius: 3px;
+  cursor: pointer;
+  border: none;
+  width: 254px;
+  height: 50px;
+  background: var(--accent);
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  color: #FFF;
+  margin-top: 33px;
+}
+
+.completed-orders__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+
+}
+
+.completed-orders {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 24px;
+  padding-top: 37px;
+  width: 100%;
+}
+
+.completed-order {
+  border: 1px solid #EDEDF0;
+  border-radius: 5px;
+  width: 271px;
+  height: 272px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  padding-top: 15px;
+}
+
+.completed-order__pic {
+  width: 243px;
+  height: 192px;
+}
+
+.hotel {
+  background: url(/macaronsForHotel.png);
+}
+
+.caffee {
+  background: url(/macaronsForCaffee.png);
+}
+
+.newYear {
+  background: url(/macaronsForNewYear.png);
+}
+
+.march {
+  background: url(/macaronsForMarch.png);
+}
+
+.completed-order__description {
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--dark-text);
+  width: 235px;
+}
+
+.pagination {
+  display: flex;
+  gap: 10px;
+}
+
+.pagination__element {
+  width: 12px;
+  height: 12px;
+  outline: 1px #E5E5E5 solid;
+  background-color: var(--background);
+}
+
+._current {
+  background-color: var(--accent);
+}
+
+.faq__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 48px;
+  padding-bottom: 34px;
+}
+
+.faq {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+  row-gap: 30px;
+  padding-top: 33px;
+  height: 560px;
+}
+
+.question {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #EDEDF0;
+  border-radius: 5px;
+  width: 330px;
+  padding: 21px;
+  background-color: var(--background);
+  gap: 20px;
+  flex: none;
+}
+
+.question__heading {
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--dark-text);
+}
+
+.question__answer {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 137%;
+  color: var(--dark-text);
+  opacity: .8;
+}
+
+.separator {
+  border: 1px solid #EDEDF0;
+  height: 0px;
+}
+
+.minor-heading {
+  font-size: 30px;
+}
+
+.ellipse {
+  position: absolute;
+  border-radius: 100%;
+  z-index: 0;
+  filter: blur(40px);
+}
+
+.firstellipse {
+  background-color: #7fcdee;
+  left: 130px;
+  top: 395px;
+  width: 156px;
+  height: 154px;
+}
+
+.secondellipse {
+  background-color: #9bff9f;
+  left: 451px;
+  top: 307px;
+  width: 113px;
+  height: 111px;
+}
+
+.thirdellipse {
+  background-color: rgba(152, 224, 194, 0.38);
+  top: 455px;
+  left: 330px;
+  width: 239px;
+  height: 239px;
+}
+
+.fourthellipse {
+  background-color: rgba(200, 238, 255, 0.37);
+  top: 313px;
+  left: 371px;
+  width: 404px;
+  height: 404px;
+}
+
+.fifthellipse {
+  background-color: rgba(152, 224, 194, 0.27);
+  width: 276px;
+  height: 276px;
+  top: 243px;
+  right: 67px;
+}
