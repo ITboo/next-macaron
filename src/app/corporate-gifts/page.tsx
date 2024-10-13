@@ -65,7 +65,7 @@ const faq = [
     id: 2,
     question: 'Как быстро мы выполняем заказы',
     answer: 'Стандартный срок выполнения заказа 3-5 дней, При большом тираже и в предновогодний сезон срок может увеличиться из-за количества заказов.',
-    }, {
+  }, {
     id: 3,
     question: 'Что с доставкой?',
     answer: 'Мы доставляем ваши заказы по всей России: от Камчатки до Калининграда, бережно упаковывая каждую печеньку или набор. Мы всегда производим для вас на 2-5% больше от заказанного количества, чтобы ничего не смогло омрачить результат нашей работы. Сроки доставки 2-7 дней с момента заказа.',
@@ -73,7 +73,7 @@ const faq = [
     id: 4,
     question: 'А за 2 дня?',
     answer: 'Мы предоставляем возможность доплатить за срочность заказа.',
-    }, {
+  }, {
     id: 5,
     question: 'Вы можете сделать кастомный рисунок? Сколько это стоит?',
     answer: 'Да, мы можем сделать любой рисунок или печать. Стоимость зависит от сложности рисунка, а также от материалов, используемых для его создания. Примерные расценки вы можете посмотреть во вкладке "Создать дизайн".',
@@ -149,10 +149,10 @@ const CorporateGifts = () => {
           <div className={styles.faq}>
             {faq.map(q => (
               <div className={styles.question} key={q.id}>
-              <span className={styles['question__heading']}>{q.question}</span>
-              <div className={styles.separator}></div>
-              <span className={styles['question__answer']}>{q.answer}</span>
-            </div>
+                <span className={styles['question__heading']}>{q.question}</span>
+                <div className={styles.separator}></div>
+                <span className={styles['question__answer']}>{q.answer}</span>
+              </div>
             ))}
           </div>
         </div>
