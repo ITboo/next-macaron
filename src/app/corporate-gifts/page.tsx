@@ -99,6 +99,11 @@ const CorporateGifts = () => {
             <button className={styles['corporate-gifts__btn']}>Скачать весь каталог подарков</button>
           </div>
         </div>
+        <div className={[styles.firstellipse, styles.ellipse].join(' ')}></div>
+        <div className={[styles.secondellipse, styles.ellipse].join(' ')}></div>
+        <div className={[styles.thirdellipse, styles.ellipse].join(' ')}></div>
+        <div className={[styles.fourthellipse, styles.ellipse].join(' ')}></div>
+        <div className={[styles.fifthellipse, styles.ellipse].join(' ')}></div>
       </Container>
       <Container>
         <div className={styles['gift-variants']}>

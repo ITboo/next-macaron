@@ -282,3 +282,55 @@
   color: var(--dark-text);
   opacity: .8;
 }
+
+.ellipse {
+  position: absolute;
+  border-radius: 100%;
+  z-index: 0;
+  filter: blur(40px);
+}
+
+.firstellipse {
+  background-color: #7fcdee;
+  left: 130px;
+  top: 395px;
+  width: 156px;
+  height: 154px;
+}
+
+.secondellipse {
+  background-color: #9bff9f;
+  left: 451px;
+  top: 307px;
+  width: 113px;
+  height: 111px;
+}
+
+.thirdellipse {
+  background-color: rgba(152, 224, 194, 0.38);
+  top: 455px;
+  left: 330px;
+  width: 239px;
+  height: 239px;
+}
+
+.fourthellipse {
+  background-color: rgba(200, 238, 255, 0.37);
+  top: 313px;
+  left: 371px;
+  width: 404px;
+  height: 404px;
+}
+
+.fifthellipse {
+  background-color: rgba(152, 224, 194, 0.27);
+  width: 276px;
+  height: 276px;
+  top: 243px;
+  right: 67px;
+}
+
+.corporate-gifts__description {
+  position: relative;
+  z-index: 1;
+}
