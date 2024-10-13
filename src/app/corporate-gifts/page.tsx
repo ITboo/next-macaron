@@ -7,13 +7,13 @@ import Breadcrumb from '../shared/ui/Breadcrumb';
 const giftVariants = [
   {
     heading: '3 макарона с печатью',
-    description: 'В пластиковой упаковке самый бюджетный вариант',
+    description: 'Cамый бюджетный вариант, но не самый незначимый!',
     price: 'от 150 руб/шт',
     className: 'pic_threeMacaroons',
     key: 0,
   }, {
     heading: '9 макарон с печатью',
-    description: 'С логотипом Вашей копании, пожеланиями и т.д.',
+    description: 'С любой печатью, например с логотипом Вашей копании',
     price: 'от 500 руб',
     className: 'pic_nineMacaroons',
     key: 1,
