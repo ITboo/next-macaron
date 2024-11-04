@@ -1,0 +1,29 @@
+.container {
+  height: 30px;
+  margin: 0 auto;
+  overflow: hidden;
+  background: rgba(212, 233, 249, 1);
+  padding-top: 5px;
+}
+.swiper .swiper-initialized .swiper-horizontal .swiper-backface-hidden {
+  height: 20px;
+}
+/* .swiper-button-next:after,
+.swiper-button-prev:after {
+  color: var(--black);
+} */
+
+.slide {
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.92px;
+  color: var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.img {
+  margin-right: 10px;
+}

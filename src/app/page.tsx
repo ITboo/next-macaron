@@ -12,14 +12,13 @@ export default function Home() {
   return (
     <main className={styles.page}>
       <Container>
-   
-      <SinceSection />
-      <Proposals />
-      <Shares />
-      <Holidays />
-      <PopularSet />
-      <MainNews />
-      <MainCare />
+        <SinceSection />
+        <Proposals />
+        <Shares />
+        <Holidays />
+        <PopularSet />
+        <MainNews />
+        <MainCare />
       </Container>
     </main>
   );

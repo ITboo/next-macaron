@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 
 import './globals.css';
+import Carousel from './components/Swiper/Carousel';
 
 const montserrat = Montserrat({ subsets: ['latin'] });
 
@@ -24,6 +25,7 @@ export default function RootLayout({
         <link rel='icon' href='/favicon.png' type='image/png' sizes='<generated>' />
       </head>
       <body className={`${montserrat.className} antialiased`}>
+        <Carousel />
         <Header />
         <div>{children}</div>
         <Footer />
